@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'fonte_google';
+    src: url(./fontes/Montserrat-VariableFont_wght.ttf);
+}
+
+.body{
+    background-color: #000000;
+}
+
+.titulo{
+    color: #4110A2;
+    font-size: 80px;
+    font-family: 'fonte_google';
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.logo{
+    margin-top: -6%;
+    margin-left: 90%;
+    height: 150px;
+    width: 150px;
+}
+
+.container_prods1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 7%;
+}
+
+.produto1{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto1 p{
+    margin-left: 2.2%;
+}
+
+.produto1 img{
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.produto2{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto2 p{
+    margin-left: 2.2%;
+}
+
+.produto2 img{
+    height: 180px;
+    width: 180px;
+}
+
+.produto3{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto3 p{
+    margin-left: 1.2%;
+}
+
+.produto3 img{
+    height: 180px;
+    width: 180px;
+}
+
+.produto4{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto4 p{
+    margin-left: 2.2%;
+}
+
+.produto4 img{
+    height: 180px;
+    width: 180px;
+}
+
+.produto5{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto5 p{
+    margin-left: 2.2%;
+}
+
+.produto5 img{
+    height: 180px;
+    width: 180px;
+}
+
+.produto6{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto6 p{
+    margin-left: 2.2%;
+}
+
+.produto6 img{
+    height: 180px;
+    width: 180px;
+}
+
+.produto7{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto7 p{
+    margin-left: 2.2%;
+}
+
+.produto7 img{
+    height: 180px;
+    width: 180px;
+}
+
+.produto8{
+    color: white;
+    font-size: 15px;
+    border: #4110A2 3px solid;
+    padding: 8px;
+}
+
+.produto8 p{
+    margin-left: 2.2%;
+}
+
+.produto8 img{
+    height: 180px;
+    width: 180px;
+}

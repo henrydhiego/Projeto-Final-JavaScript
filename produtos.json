@@ -1,0 +1,95 @@
+[
+        {   
+            "id": 1,
+            "nome":"Adi 2000",
+            "estoque":"10",
+            "marca":"Adidas",
+            "imagem1":"./images/Adidas/adidas20001.jpg",
+            "imagem2":"./images/Adidas/adidas2000_2.jpg",
+            "numeros_disponiveis":"34 ao 44",
+            "cor":"Branco/Cinza",
+            "detalhes":"O cabedal de couro premium e suede dá o toque final de estilo a cada passo. Volte ao início da era 2K, quando o estilo era ousado e vibrante e os tênis eram volumosos. Uma homenagem àquela época, este tênis adidas traz a energia do skate e do basquete do início dos anos 2000 de volta à vida."
+        },
+        {
+            "id": 2,
+            "nome":"Adidas Campus",
+            "estoque":"18",
+            "marca":"Adidas",
+            "imagem1":"./images/Adidas/campus_preto1.jpg",
+            "imagem2":"./images/Adidas/campus_preto2.jpg",
+            "imagem3":"./images/campus_preto3.jpg",
+            "numeros_disponiveis":"34 ao 42",
+            "cor":"Preto",
+            "detalhes":"O Adidas Campus, lançado nos anos 1970, é um tênis icônico com cabedal de camurça, três listras clássicas e sola de borracha durável. Conhecido por seu conforto e versatilidade, é popular tanto no estilo urbano quanto no skate, disponível em várias cores para combinar com diversos looks."
+        },
+        {
+            "id": 3,
+            "nome":"Air Max TN Barcelona",
+            "estoque":"13", "marca":"Nike",
+            "imagem1":"./images/Nike/tn_1.jpg",
+            "imagem2":"./images/Nike/tn_2.jpg",
+            "imagem3":"./images/Nike/tn_3.jpg",
+            "numeros_disponiveis":"38 ao 44",
+            "cor":"Roxo/Rosa",
+            "detalhes":"O Tênis TN Barcelona, inspirado na vibrante cidade de Barcelona, é uma versão estilizada da linha TN da Nike. Com design ousado e tecnologia avançada, ele combina materiais de alta qualidade, sola emborrachada para conforto e durabilidade, e detalhes que homenageiam a cultura local. Ideal para quem busca estilo e performance, sua estética única destaca-se em ambientes urbanos."
+        },
+        {
+            "id": 4,
+            "nome":"Air Max 90 x Off-White",
+            "estoque":"03","marca":"Nike",
+            "imagem1":"./images/Nike/max90_1.jpg",
+            "imagem2":"./images/Nike/max90_2.jpg",
+            "imagem3":"./images/Nike/max90_3.jpg",
+            "numeros_disponiveis":"38 ao 45",
+            "cor":"Marrom",
+            "detalhes":"O Air Max 90 Off-White Desert é uma colaboração entre Nike e Virgil Abloh, conhecido por seu design inovador. Com elementos como costuras expostas, etiquetas industriais e uma paleta de cores Desert Ore, ele combina o clássico Air Max 90 com uma estética moderna e urbana, atraindo colecionadores e admiradores da moda contemporânea."
+        },
+        {
+            "id": 5,
+            "nome":"Suede XL",
+            "estoque":"27",
+            "marca":"Puma",
+            "imagem1":"./images/Puma/puma_1.jpg",
+            "imagem2":"./images/Puma/puma_2.jpg",
+            "imagem3":"./images/Puma/puma_3.jpg", 
+            "numeros_disponiveis":"34 ao 39",
+            "cor":"Preto",
+            "detalhes":"O Puma Suede XL é uma versão atualizada do clássico tênis Puma Suede, conhecido por seu estilo casual e conforto duradouro. Com um design elegante e detalhes em camurça, ele oferece uma combinação perfeita de moda e funcionalidade para o dia a dia, sendo uma escolha popular entre os adeptos de um visual urbano e descontraído."
+        },
+        {
+            "id": 6,
+            "nome":"X-Ray 2",
+            "estoque":"08",
+            "marca":"Puma",
+            "imagem1":"./images/Puma/ray_1.jpg",
+            "imagem2":"./images/Puma/ray_2.jpg",
+            "imagem3":"./images/Puma/ray_3.jpg",
+            "numeros_disponiveis":"37 ao 44",
+            "cor":"Branco",
+            "detalhes":"O Puma X-Ray White é um tênis que se destaca pelo seu design moderno e minimalista. Com detalhes em branco e uma estrutura leve, oferece conforto e estilo para diversas ocasiões. Ideal para quem busca um visual clean e contemporâneo, este modelo da Puma combina facilmente com diferentes looks urbanos, sendo uma escolha versátil e elegante para o dia a dia."
+        },
+        {
+            "id": 7,
+            "nome":"Knu Skool",
+            "estoque":"02",
+            "marca":"Vans",
+            "imagem1":"./images/Vans/knu_1.jpg",
+            "imagem2":"./images/Vans/knu_2.jpg",
+            "imagem3":"./images/Vans/knu_3.jpg",
+            "numeros_disponiveis":"33 ao 43",
+            "cor":"Rosa",
+            "detalhes":"O Vans Knu é um modelo de tênis conhecido por sua simplicidade e conforto. Com um design casual e robusto, é ideal para o uso diário e atividades casuais. Fabricado com materiais de qualidade, como lona resistente e solado de borracha durável, o Knu da Vans oferece uma combinação de estilo clássico e funcionalidade prática. Disponível em diversas cores e estampas, é uma escolha popular entre os amantes de calçados urbanos que valorizam tanto o conforto quanto o visual despojado."
+        },
+        {
+            "id": 8,
+            "nome":"Ultrarange",
+            "estoque":"12",
+            "marca":"Vans",
+            "imagem1":"./images/Vans/vans_1.jpg",
+            "imagem2":"./images/Vans/vans_2.jpg",
+            "imagem3":"./images/Vans/vans_3.jpg",
+            "numeros_disponiveis":"36 ao 45",
+            "cor":"Azul-Bebê",
+            "detalhes":"O Vans UltraRange é um tênis projetado para conforto e estilo urbano, destacando-se por sua tecnologia de amortecimento UltraCush Lite. Ideal para quem busca um calçado versátil e confortável para o dia a dia ou viagens, o UltraRange combina funcionalidade com um design moderno e urbano."
+        }
+]
