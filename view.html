@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cold Storm - Produtos</title>
     <link rel="stylesheet" href="style.css">
-    <script src="funcional.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script defer src="funcional.js"></script>
 </head>
 <body class="body">
 
@@ -16,36 +20,27 @@
 </div>
 
 <div class="container_prods1" id="container_prods1">
-    <div class="produto1" id="produto1">
+    <div class="produto" id="produto1"></div>
+    <div class="produto" id="produto2"></div>
+    <div class="produto" id="produto3"></div>
+    <div class="produto" id="produto4"></div>
+    <div class="produto" id="produto5"></div>
+    <div class="produto" id="produto6"></div>
+    <div class="produto" id="produto7"></div>
+    <div class="produto" id="produto8"></div>
+</div>
 
-    </div>
-
-    <div class="produto2" id="produto2">
-
-    </div>
-
-    <div class="produto3" id="produto3">
-
-    </div>
-
-    <div class="produto4" id="produto4">
-
-    </div>
-
-    <div class="produto5" id="produto5">
-
-    </div>
-
-    <div class="produto6" id="produto6">
-
-    </div>
-
-    <div class="produto7" id="produto7">
-
-    </div>
-
-    <div class="produto8" id="produto8">
-
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="carousel"></div>
+        <div class="product-details">
+            <h2 id="product-name"></h2>
+            <p id="product-color"></p>
+            <p id="product-stock"></p>
+            <p id="product-sizes"></p>
+            <p id="product-details"></p>
+        </div>
     </div>
 </div>
 
