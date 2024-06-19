@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Adicionar eventos para alterar o cursor
             let produtos = document.querySelectorAll('.produto');
             produtos.forEach(produto => {
                 produto.addEventListener('mouseover', () => {
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Função para exibir o modal com informações detalhadas do produto
     function showModal(produto) {
         const modal = document.getElementById("modal");
         const carousel = modal.querySelector('.carousel');
@@ -48,13 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
         productSizes.textContent = `Números disponíveis: ${produto.numeros_disponiveis}`;
         productDetails.textContent = produto.detalhes;
 
-        // Limpar e configurar o carrossel
         carousel.innerHTML = '';
         if (produto.imagem1) carousel.innerHTML += `<div><img src="${produto.imagem1}" alt="${produto.nome}"></div>`;
         if (produto.imagem2) carousel.innerHTML += `<div><img src="${produto.imagem2}" alt="${produto.nome}"></div>`;
         if (produto.imagem3) carousel.innerHTML += `<div><img src="${produto.imagem3}" alt="${produto.nome}"></div>`;
 
-        // Iniciar o carrossel usando Slick com botões
         $(carousel).slick({
             dots: true,
             infinite: true,
@@ -65,22 +61,20 @@ document.addEventListener('DOMContentLoaded', () => {
             nextArrow: '<button class="slick-next">Próximo</button>'
         });
 
-        // Mostrar o modal
         modal.style.display = "block";
     }
 
-    // Fechar o modal
     const modal = document.getElementById("modal");
     const span = document.getElementsByClassName("close")[0];
     span.onclick = function() {
         modal.style.display = "none";
-        $('.carousel').slick('unslick'); // Destruir o carrossel ao fechar
+        $('.carousel').slick('unslick'); 
     }
 
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
-            $('.carousel').slick('unslick'); // Destruir o carrossel ao fechar
+            $('.carousel').slick('unslick'); 
         }
     }
 });
